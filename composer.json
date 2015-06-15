@@ -1,0 +1,21 @@
+{
+  "name": "isty001/phpExcercises",
+  "description": "PHP Excercises",
+  "license": "propietary",
+  "authors": [
+    {
+      "name": "Farkasvölgyi István",
+      "email": "isty001@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "~4.7"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "App\\": "src",
+      "App\\Tests\\": "tests"
+    }
+  }
+}
