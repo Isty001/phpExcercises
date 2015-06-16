@@ -7,7 +7,7 @@ print_r($matches);
 
 
 //
-$string2 = '4F9nd10L';
+$string2 = '4F9nD10L';
 echo $string2 . PHP_EOL;
 
-echo preg_replace('[9nd]', '888', $string2);
+echo preg_replace('[9nd]i', '888', $string2);
