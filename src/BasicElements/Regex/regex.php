@@ -20,7 +20,6 @@ if(preg_match("/\bw[eai]b\b/i", "PHP is a web scripting language")){
 }
 
 //
-preg_match_all("|<[^>]+>(.*)</[^>]+>|U", "<b>example: </b><div align=\"left\">this is a test</div>",
-    $out, PREG_SET_ORDER);
+preg_match_all("|<[^>]+>(.*)</[^>]+>|U", "<b>example: </b><div align=\"left\">this is a test</div>", $out, PREG_SET_ORDER);
 
 print_r($out);
