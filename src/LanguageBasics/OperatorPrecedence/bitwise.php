@@ -14,4 +14,3 @@ echo PHP_EOL;
 echo decbin($x << 1); //Move bits by 1 -> 10010
 echo PHP_EOL;
 echo $x << 1; //18
-
