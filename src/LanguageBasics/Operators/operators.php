@@ -4,8 +4,11 @@ echo (10 % 4) ** 3 . PHP_EOL;
 
 //
 $text = 'Hello ';
-echo $text .= ' there!';
+echo $text .= ' there!' .PHP_EOL;
 
+//
+$a = 2;
+var_dump($a += '5');
 //
 var_dump('a' == 0);
 
@@ -13,7 +16,7 @@ var_dump('a' == 0);
 $my_file = @file('file');
 
 //
-$d = 'A08';
+$d = 'A4';
 for ($n=0; $n<6; $n++) {
     echo ++$d . PHP_EOL;
 }
