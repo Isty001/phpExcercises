@@ -7,6 +7,9 @@ var_dump('1 String' + 5);
 var_dump((float)'1 String' + 5);
 var_dump((int)'1.5 String' + 5);
 
+$int = 10;
+var_dump(("$int"));
+
 
 class obj {
     private $a = 1;
